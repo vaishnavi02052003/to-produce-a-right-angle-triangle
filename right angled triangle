@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{ 
+    int num, row=1,start;
+    printf(" entre the number of rows \n :");
+    scanf("%d",&num);
+    printf("\n");
+    while(row<=num)
+    {
+        start=1;
+        while(start<=row)
+        {
+            printf("%c",(row+64));
+            start++;
+        }
+        printf("\n");
+        row++;
+    }
+}
